@@ -1,0 +1,58 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	width: 150px;
+	background-color: #f1f1f1;
+	border: 1px solid #555;
+	position: absolute;
+	top: 20%;
+}
+
+li a {
+	display: block;
+	color: black;
+	width:60px;
+	padding: 8px 16px;
+	text-decoration: none;	
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li a:hover {
+	background-color: #C0C0C0;
+	color:white;
+}
+
+form {
+	display:inline-block;
+}
+
+.container {
+	position:absolute;
+	top:10%;
+	left:40%;
+	clear: both;
+}
+
+.container input {
+	width:100%;
+	clear: both;
+}
+
+#update {
+	position:absolute;
+	top:101%;
+	left:67%;
+	width:20%;
+}
+
+#cancel {
+	position:absolute;
+	top:101%;
+	left:88%;
+	width:20%;
+}
